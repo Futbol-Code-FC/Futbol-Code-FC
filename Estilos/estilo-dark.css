@@ -1,0 +1,60 @@
+
+body.dark-mode {
+  --azul: #0a1a33;
+  --grana: #6e2233;
+  --dorado: #c8a204;
+  --blanco: #e5e5e5;
+  --gris: #2e2e2e;
+  
+  background: linear-gradient(to right, var(--azul), var(--grana));
+  color: var(--blanco);
+}
+
+body.dark-mode header {
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+body.dark-mode nav {
+  background-color: #121a3d;
+}
+
+body.dark-mode main {
+  background-color: rgba(50, 50, 50, 0.6);
+}
+
+body.dark-mode h2 {
+  color: var(--dorado);
+  border-color: var(--dorado);
+}
+
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode input,
+body.dark-mode textarea {
+  color: var(--blanco);
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: #555;
+  color: var(--blanco);
+}
+
+body.dark-mode footer {
+  background-color: #6e2233;
+}
+
+body.dark-mode .social-floating {
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+body.dark-mode .card {
+  background-color: rgba(50, 50, 50, 0.6);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+  color: var(--blanco);
+}
+
+body.dark-mode .card h3 {
+  color: var(--dorado);
+}
